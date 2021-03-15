@@ -2,7 +2,7 @@
 title = "Starting with zola"
 date = 2020-03-11
 description = "my starting experience with the zola static page generator"
-[taxonomie]
+[taxonomies]
 tags = ["zola", "getting-started"]
 +++
 

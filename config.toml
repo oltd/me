@@ -16,10 +16,15 @@ default_lang = "en"
 # choose my own theme from the submodule
 theme = "dose"
 
-[markdown]
-# we don't need that. yet.
-highlight_code = false
+languages = [
+    {code = "de"}
+]
 
+taxomonies = [
+    {name = "tags"}
+]
+
+[markdown]
 # making our external links behave correctly
 external_links_target_blank = true
 external_links_no_follow = true
@@ -28,8 +33,12 @@ external_links_no_referrer = true
 # who invented this? just stupid.
 smart_punctuation = false
 
+# do some nice static highlighting
+highlight_code = true
+highlight_theme = "visual-studio-dark"
+
 [extra]
-author = "oltd"
-github = "oltd"
-twitter = "oltd_maker"
-show_me = true
+social_media = [
+    {name = "GitHub", url = "https://github.com/oltd"},
+    {name = "Twitter", url = "https://twitter.com/@oltd_maker"},
+]
